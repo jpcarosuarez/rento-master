@@ -1,0 +1,105 @@
+.footeer-container {
+  width: 100%;
+  height: auto;
+  background-color: #3b5998;
+  padding-bottom: 50px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.footer-info {
+  margin-top: 30px;
+}
+
+.suscribete {
+  margin-left: 20px;
+  color: white;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+  margin-left: -12px;
+}
+
+
+
+.conocer-mas {
+  color: white;
+}
+
+.contacto {
+  color: white;
+}
+
+.redes {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.redes a {
+  font-size: 2em;
+  padding-right: 0.5em;
+  color: white;
+}
+
+.contacto-two {
+  margin-top: 45px;
+  color: white;
+}
+
+.text-suscribete {
+  margin-bottom: 20px;
+}
+
+.seleccionar {
+  width: 313px;
+  height: 43px;
+  border-radius: 10px;
+  border-style: none;
+  text-align: center;
+}
+
+.enviar-boton {
+  width: 131px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  text-align: center;
+  font-size: 25px;
+  background-color: #fa4a0c;
+  color: white;
+  margin-left: 10px;
+  
+}
+.submit-container {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 502px) {
+  .conocer-mas {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .contacto {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .contacto-two {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+}

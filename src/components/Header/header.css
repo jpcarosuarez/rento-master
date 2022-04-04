@@ -1,0 +1,15 @@
+.makeStyles-menuButton-3:nth-of-type(5){
+    background: #FA4A0C;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* font-weight: bold; */
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  
+  .rentoLogo {
+    height: 95px;
+    width: auto;
+    padding-bottom: 27px;
+
+  }

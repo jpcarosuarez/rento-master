@@ -1,0 +1,41 @@
+.easy-safe-container {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title-easy-safe {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 42px;
+}
+.blue {
+  color: #3b5998;
+}
+
+.p-title {
+  margin: 20px 100px 20px 100px;
+  font-size: 19px;
+}
+
+.p-info {
+  text-align: center;
+  margin: 20px 50px 20px 50px;
+}
+
+.img-center {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-easy-safe {
+  margin-bottom: 50px;
+}
