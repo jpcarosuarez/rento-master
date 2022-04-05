@@ -4,18 +4,21 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-import HouseIcon from "@mui/icons-material/House";
-import HttpsIcon from "@mui/icons-material/Https";
-import LocalOfferIcon from "@mui/icons-material/LocalOffer";
+//import HouseIcon from "@mui/icons-material/House";
+//import HttpsIcon from "@mui/icons-material/Https";
+import LocationSearchingIcon from '@mui/icons-material/LocationSearching';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+//import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import logo from "../../img/logo.png";
 import banner from "../../img/banner.jpg";
 import WhoContainer from "../../components/Who-container/WhoContainer";
 import EasySafeContainer from "../../components/EasySafe-container/EasySafeContainer";
 import RentContainer from "../../components/Rent-container/RentContainer";
 import {Slideshow, Slide, TextoSlide} from '../../components/Slideshow/Slideshow'
-import slider1 from '../../../src/img/slider1.png'
-import slider2 from '../../../src/img/slider2.png'
-import slider3 from '../../../src/img/slider3.png'
+import slider1 from '../../../src/img/1Habitacion.jpg';
+import slider2 from '../../../src/img/2HabitacionesA';
+import slider3 from '../../../src/img/Oficina.jpg';
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -38,7 +41,7 @@ export default function BasicGrid() {
                   <br /> para crear tus sueños?
                 </h2>
                 <img src={logo} className="logo-home" alt="" />
-                <button className="btnRenta">Renta un Espacio</button>
+                <button className="btnRenta">Renta espacios disponibles en tu zona</button>
               </div>
             </Item>
           </Grid>
@@ -49,23 +52,24 @@ export default function BasicGrid() {
           </Grid>
 
          
-            <Grid item style={{marginTop:"3rem",marginBottom:"10.5rem",backgroundColor:'#E7E6F3',}} xs={4}>
-                  <HouseIcon style={{color:'#385697',fontSize:'6rem',marginLeft:'41%',backgroundColor:'#E7E6F3',}}/>
-                  <Item elevation={0} style={{backgroundColor:'#E7E6F3',}}><h3>Arrenda inmuebles desde 3 horas hasta 99 años.</h3></Item>
+                <Grid item style={{marginTop:"3rem",marginBottom:"10.5rem",backgroundColor:'#E7E6F3',}} xs={4}>
+                  <LocationSearchingIcon style={{marginTop:'1rem', color:'#385697',fontSize:'3rem',marginLeft:'41%',backgroundColor:'#E7E6F3',}}/>
+                  <Item elevation={0} style={{backgroundColor:'#E7E6F3', fontSize:'3rem'}}><h3> Encuentra espacios para arriendos por horas, días, meses o años.</h3></Item>
                 </Grid>
 
                 <Grid item style={{marginTop:"3rem",marginBottom:"10.5rem",backgroundColor:'#E7E6F3',}} xs={4}>
-                  <HttpsIcon style={{marginTop:'.9rem',color:'#385697',fontSize:'5rem',marginLeft:'41%',backgroundColor:'#E7E6F3',}}/>
-                  <Item elevation={0} style={{backgroundColor:'#E7E6F3',}}><h3>Es seguro para arrendadores y para arrendatarios.</h3></Item>
+                  <CheckCircleOutlineIcon style={{marginTop:'1rem',color:'#385697',fontSize:'3rem',marginLeft:'41%',backgroundColor:'#E7E6F3',}}/>
+                  <Item elevation={0} style={{backgroundColor:'#E7E6F3', fontSize:'3rem'}}><h3>Conoce más acerca de los espacios, medidas, pagos, mensualidades, contratos. ¡Y escógelo!</h3></Item>
                 </Grid>
 
                 <Grid item style={{marginTop:"3rem",marginBottom:"10.5rem",backgroundColor:'#E7E6F3',}} xs={4}>
-                  <LocalOfferIcon style={{marginTop:'.9rem', color:'#385697',fontSize:'5rem',marginLeft:'41%',backgroundColor:'#E7E6F3',}}/>
-                  <Item elevation={0} style={{backgroundColor:'#E7E6F3',}}><h3>Con las tazas mas bajas de Colombia.</h3></Item>
+                  <EventAvailableIcon style={{marginTop:'1rem', color:'#385697',fontSize:'3rem',marginLeft:'41%',backgroundColor:'#E7E6F3',}}/>
+                  <Item elevation={0} style={{backgroundColor:'#E7E6F3', fontSize:'3rem'}}><h3>Reserva fácilmente y en pocos pasos el espacio de tus sueños.</h3></Item>
                 </Grid>
          
 
           <RentContainer />
+
           <Grid item sm={12} xs={12}>
             
             {/* SLIDESHOW */}
@@ -76,9 +80,9 @@ export default function BasicGrid() {
 						<img src={slider1} alt=""/>
 					</a>
           <TextoSlide>   
-                       <h2> <strong>$1.120.000</strong> </h2>
-                       <h3>Apartamento en Chabinero</h3>
-                        <p className="sliderText">Empacó sus siete versales, enfundó su inicial en el cinturón y se puso en camino. Cuando ya había escalado las primeras colinas de las montañas cursivas, se dio media vuelta para dirigir su mirada por última vez, hacia su ciudad natal Letralandia, el encabezamiento del pueblo.</p>
+                       <h2> <strong>$1.550.000</strong> / Mensual </h2>
+                       <h3>Apartamento en Chapinero</h3>
+                        <p className="sliderText">Apartamento de una habitación un baño desde 42 mts2, consta de sala comedor, cocina con zona húmeda con lavadero y espacio para la lavadora, tendedero de ropas, habitación con closet en carpintería, ventanas con cortina roller, balcón exterior, estufa y ducha a gas natural, finas terminaciones, estrato 4.</p>
           </TextoSlide>
 				</Slide>
 				<Slide>
@@ -86,9 +90,9 @@ export default function BasicGrid() {
 						<img src={slider2} alt=""/>
 					</a>
 					<TextoSlide>   
-                       <h2> <strong>$1.120.000</strong> </h2>
-                       <h3>Apartamento en Medillín</h3>
-                        <p className="sliderText">Empacó sus siete versales, enfundó su inicial en el cinturón y se puso en camino. Cuando ya había escalado las primeras colinas de las montañas cursivas, se dio media vuelta para dirigir su mirada por última vez, hacia su ciudad natal Letralandia, el encabezamiento del pueblo.</p>
+                       <h2> <strong>$1.900.000</strong> / Mensual</h2>
+                       <h3>Apartamento 2 Habitaciones en Chapinero</h3>
+                        <p className="sliderText">Apartamento de 58 mts2, consta de 2 habitaciones 2 baños, sala-comedor, cocina con zona húmeda con tendedero y lavadero, igualmente con espacio para la lavadora, habitaciones con closet en carpintería y cortinas, apartamento exterior con balcón.</p>
           </TextoSlide>
 				</Slide>
 				<Slide>
@@ -96,9 +100,9 @@ export default function BasicGrid() {
 						<img src={slider3} alt=""/>
 					</a>
 					<TextoSlide>   
-                       <h2> <strong>$1.120.000</strong> </h2>
-                       <h3>Apartamento en Bogotá</h3>
-                      <p className="sliderText">Empacó sus siete versales, enfundó su inicial en el cinturón y se puso en camino. Cuando ya había escalado las primeras colinas de las montañas cursivas, se dio media vuelta para dirigir su mirada por última vez, hacia su ciudad natal Letralandia, el encabezamiento del pueblo.</p>
+                       <h2> <strong>$120.000</strong> / Diario</h2>
+                       <h3>Oficina en Barrios unidos</h3>
+                      <p className="sliderText">Oficina de 20 mts2 económica que incluye servicios, ubicada en un exclusivo sector de Chapinero con flujo considerable de personas por la vía, frente a una estación de Transmilenio y radio Caracol. </p>
           </TextoSlide>
 				</Slide>
 			</Slideshow>

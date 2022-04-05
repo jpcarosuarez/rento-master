@@ -7,19 +7,21 @@ const RentContainer = () => {
   return (
     <div className="rent-container">
       <div className="title-rent">
-        <h3 className="RentaNecesitoTitulo"> Rento lo que necesito </h3>
+        <h3 className="RentaNecesitoTitulo"> En RENTO no hay límites. <br/>
+            Arrienda el espacio que quieras
+        </h3>
       </div>
       <Grid container>
         <Grid item sm={6} xs={12}>
           <div className="info">
             <h2>
-              <span className="blue"> Rento </span> un jardin por 6 horas para
-              el cumple de mi hija
+              <span className="blue"> Rento </span> 
+                Una terraza por 6 horas para el cumpleaños de mi hija
             </h2>
             <p>
-              Encuentra los espacios que necesitas para eventos y celebraciones.
-              Empieza a crear memorias especiales rentando un sitio a partir de
-              3 horas.
+                Encuentra los espacios que necesitas para eventos y celebraciones.
+                Empieza a crear memorias especiales rentando un sitio a partir de
+                3 horas.
             </p>
           </div>
         </Grid>
@@ -43,7 +45,7 @@ const RentContainer = () => {
               parqueadero por 5 dias mientras estoy de viaje
             </h2>
             <p>
-              Deja tu auto en un parqueadero de confianza por el riempo que
+              Deja tu auto en un parqueadero de confianza por el tiempo que
               necesites y olvidate de procupaciones mientras viajas.
             </p>
           </div>
@@ -58,11 +60,10 @@ const RentContainer = () => {
         <Grid item sm={6} xs={12}>
           <div className="info">
             <h2>
-              <spam className="blue"> Rento </spam> un apartamento por 4 años
-              mientras termino la uni
+              <spam className="blue"> Rento </spam> un apartamento en Bopgotá mientras termino la universidad
             </h2>
             <p>
-              Rento te ayuda a conseguir un apartamento de alquiler a precio
+              Rento te ayuda a conseguir un apartamento en arriendo a precio
               justo ¡Encuentra tu siguiente hogar y reservalo hoy!
             </p>
           </div>

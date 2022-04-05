@@ -18,7 +18,7 @@ import rentoLogo from '../../img/rentoLogo.svg';
 
 const headersData = [
   {
-    label: "¿Qué puedo rentar?",
+    label: "¿Qué espacios puedo rentar?",
     href: "/renta",
   },
   {
