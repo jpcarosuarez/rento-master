@@ -17,8 +17,8 @@ import EasySafeContainer from "../../components/EasySafe-container/EasySafeConta
 import RentContainer from "../../components/Rent-container/RentContainer";
 import {Slideshow, Slide, TextoSlide} from '../../components/Slideshow/Slideshow'
 import slider1 from '../../../src/img/1Habitacion.jpg';
-import slider2 from '../../../src/img/2HabitacionesA';
-import slider3 from '../../../src/img/Oficina.jpg';
+import slider2 from '../../../src/img/2habitacionesA.jpg';
+import slider3 from '../../../src/img/oficina.jpg';
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -73,46 +73,45 @@ export default function BasicGrid() {
           <Grid item sm={12} xs={12}>
             
             {/* SLIDESHOW */}
-            <div className="slideShowContainer">
-            <Slideshow controles={false} autoplay={true} velocidad="2000" intervalo="6000">
-				<Slide >
-					<a href="https://www.google.com">
-						<img src={slider1} alt=""/>
-					</a>
-          <TextoSlide>   
-                       <h2> <strong>$1.550.000</strong> / Mensual </h2>
-                       <h3>Apartamento en Chapinero</h3>
-                        <p className="sliderText">Apartamento de una habitación un baño desde 42 mts2, consta de sala comedor, cocina con zona húmeda con lavadero y espacio para la lavadora, tendedero de ropas, habitación con closet en carpintería, ventanas con cortina roller, balcón exterior, estufa y ducha a gas natural, finas terminaciones, estrato 4.</p>
-          </TextoSlide>
-				</Slide>
-				<Slide>
-					<a href="https://www.google.com">
-						<img src={slider2} alt=""/>
-					</a>
-					<TextoSlide>   
-                       <h2> <strong>$1.900.000</strong> / Mensual</h2>
-                       <h3>Apartamento 2 Habitaciones en Chapinero</h3>
-                        <p className="sliderText">Apartamento de 58 mts2, consta de 2 habitaciones 2 baños, sala-comedor, cocina con zona húmeda con tendedero y lavadero, igualmente con espacio para la lavadora, habitaciones con closet en carpintería y cortinas, apartamento exterior con balcón.</p>
-          </TextoSlide>
-				</Slide>
-				<Slide>
-					<a href="https://www.google.com">
-						<img src={slider3} alt=""/>
-					</a>
-					<TextoSlide>   
-                       <h2> <strong>$120.000</strong> / Diario</h2>
-                       <h3>Oficina en Barrios unidos</h3>
-                      <p className="sliderText">Oficina de 20 mts2 económica que incluye servicios, ubicada en un exclusivo sector de Chapinero con flujo considerable de personas por la vía, frente a una estación de Transmilenio y radio Caracol. </p>
-          </TextoSlide>
-				</Slide>
-			</Slideshow>
-      </div>
-			
-			
+          <div className="slideShowContainer">
+          <Slideshow controles={false} autoplay={true} velocidad="2000" intervalo="6000">
+				    <Slide >
+              <a href="https://www.google.com">
+                <img src={slider1} alt=""/>
+              </a>
+              <TextoSlide>   
+                <h2> <strong>$1.550.000</strong> / Mensual </h2>
+                <h3>Apartamento en Chapinero</h3>
+                <p className="sliderText">Apartamento de una habitación un baño desde 42 mts2, consta de sala comedor, cocina con zona húmeda con lavadero y espacio para la lavadora, tendedero de ropas, habitación con closet en carpintería, ventanas con cortina roller, balcón exterior, estufa y ducha a gas natural, finas terminaciones, estrato 4.</p>
+              </TextoSlide>
+				    </Slide>
+
+				    <Slide>
+              <a href="https://www.google.com">
+                <img src={slider2} alt=""/>
+              </a>
+              <TextoSlide>   
+                  <h2> <strong>$1.900.000</strong> / Mensual</h2>
+                  <h3>Apartamento 2 Habitaciones en Chapinero</h3>
+                  <p className="sliderText">Apartamento de 58 mts2, consta de 2 habitaciones 2 baños, sala-comedor, cocina con zona húmeda con tendedero y lavadero, igualmente con espacio para la lavadora, habitaciones con closet en carpintería y cortinas, apartamento exterior con balcón.</p>
+              </TextoSlide>
+				    </Slide>
+
+				    <Slide>
+              <a href="https://www.google.com">
+                <img src={slider3} alt=""/>
+              </a>
+					  <TextoSlide>   
+                  <h2> <strong>$120.000</strong> / Diario</h2>
+                  <h3>Oficina en Barrios unidos</h3>
+                  <p className="sliderText">Oficina de 20 mts2 económica que incluye servicios, ubicada en un exclusivo sector de Chapinero con flujo considerable de personas por la vía, frente a una estación de Transmilenio y radio Caracol. </p>
+            </TextoSlide>
+				    </Slide>
 
 
-
-            {/* FIN DE SLIDESHOW */}
+			    </Slideshow>
+          </div>
+          {/* FIN DE SLIDESHOW */}
           </Grid>
 
           <EasySafeContainer />

@@ -14,12 +14,15 @@ const EasySafeContainer = () => {
           <span className="blue"> Seguro </span>!{" "}
         </h3>
         <p className="p-title">
-          Rento es una alicacion de oferta de inmuebles o espacios donde puedes
-          arrendar o publicar tu propiedad, simplificamos el proceso de
-          arrendamienro para hacerlo seguro y simple para todos, asegurando el
-          pago al propietario y cerificando espacios reales para nuestros
-          inquilinos. Rento es loq ue necesitas par publicar, reservar, alquilar
-          y pagar tu arriendo de la forma mas fácil y práctica.
+          RENTO es una aplicación de oferta de inmuebles o 
+          espacios donde puedes arrendar o publicitar tu propiedad, 
+          simplificamos el proceso de arrendamiento para hacerlo seguro 
+          y simple para todos, asegurando el pago al propietario y certificando 
+          espacios reales para nuestros inquilinos. Rento es lo que 
+          necesitas para publicar, reservar, alquilar y pagar tu arriendo 
+          de la forma más fácil y práctica. Puedes alquilar diferentes espacios, 
+          desde un parqueadero por días, un apartamento por años, o un restaurante 
+          para celebrar un cumpleaños por 6 horas. 
         </p>
       </div>
       <div className="info-easy-safe">
@@ -32,10 +35,9 @@ const EasySafeContainer = () => {
           <Grid item sm={3} xs={12}>
             <div>
               <p className="p-info">
-                Es un productto respaldado por kiosko inmobiliario, una empresa
-                qie se dedica a la administación, intermediación y
-                comercialiazación de inmuebles en todas sus formas. Kiosko te
-                protege ante cualquier eventualidad.
+                Plataforma respaldada por Kiosko Inmobiliario, una empresa inmobiliaria
+                que se dedica a la administación, intermediación y
+                comercialiazación de inmuebles en todas sus formas. <br/> MA:2018122
               </p>
             </div>
           </Grid>

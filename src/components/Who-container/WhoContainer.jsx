@@ -1,7 +1,7 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import "./who-container.css";
-import kiosko from "../../img/kiosko.png";
+import kiosko from "../../img/logoblack.png";
 import nombre from "../../img/Nombre.png";
 import form from "../../img/form.png";
 
@@ -12,23 +12,25 @@ const WhoContainer = () => {
         <h3>¿Quiénes somos?</h3>
       </div>
       <Grid container>
-        <Grid item sm={6} xs={12}>
+
+        <Grid item sm={12} xs={12}>
           <div className="info-kiosko">
-            <img src={kiosko} alt="" />
+            <img src={kiosko} alt="Logo Kiosko inmobiliario" />
             <h3> Kiosko Inmobiliario</h3>
             <div className="whoText">
               <p>
                 Somos una inmobiliaria y portal web dedicado a entregar un
                 servicio inmobiliario de excelencia y calidad para personas,
                 agentes e inmobiliarias creando relaciones de confianza que
-                perduren en el tiempo. Cumplimos com las expectativas de tiempos y
+                perduren en el tiempo. Cumplimos con las expectativas de tiempos y
                 costos de nuestros clientes de acuerdo con las normas y leyes
                 vigentes.
               </p>
             </div>
           </div>
         </Grid>
-        <Grid item sm={6} xs={12}>
+
+        {/* <Grid item sm={6} xs={12}>
           <div className="info-kiosko">
             <img src={nombre} alt="" id="img-two" />
             <h3> Nombre y apellido</h3>
@@ -41,7 +43,8 @@ const WhoContainer = () => {
               </p>
             </div>
           </div>
-        </Grid>
+        </Grid> */}
+
         <div className="center-img">
           <img src={form} alt="" className="form" />
         </div>
